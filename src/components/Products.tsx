@@ -4,26 +4,26 @@ import "../styles/products.css"
 const productsData = [
     {
         id: 1,
-        frontImage: '/img/TF.jpg',
-        backImage: '/img/TB.jpg',
+        frontImage: `${import.meta.env.BASE_URL}/img/TF.jpg`,
+        backImage: `${import.meta.env.BASE_URL}/img/TB.jpg`,
         badge: 'New Release'
     },
     {
         id: 2,
-        frontImage: '/img/NF.jpg',
-        backImage: '/img/NB.jpg',
+        frontImage: `${import.meta.env.BASE_URL}/img/NF.jpg`,
+        backImage: `${import.meta.env.BASE_URL}/img/NB.jpg`,
         badge: 'Trending'
     },
     {
         id: 3,
-        frontImage: '/img/BF.jpg',
-        backImage: '/img/BB.jpg',
+        frontImage: `${import.meta.env.BASE_URL}/img/BF.jpg`,
+        backImage: `${import.meta.env.BASE_URL}/img/BB.jpg`,
         badge: 'Classic'
     },
     {
         id: 4,
-        frontImage: '/img/OF.jpg',
-        backImage: '/img/OB.jpg',
+        frontImage: `${import.meta.env.BASE_URL}/img/OF.jpg`,
+        backImage: `${import.meta.env.BASE_URL}/img/OB.jpg`,
         badge: 'Trending'
     }
 ];
