@@ -1,3 +1,5 @@
+import "../styles/card.css"
+
 interface CardProps {
     // Image path for the back of the card
     backImage?: string;
