@@ -3,7 +3,7 @@
 /* Contenedor principal */
 .products {
     padding: 4rem 2rem 5rem;
-    max-width: 1300px;
+    max-width: 100%;
     margin: 0 auto;
     font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
     background: transparent;  /* o hereda del body */
@@ -36,7 +36,7 @@
     left: 10%;
     width: 80%;
     height: 3px;
-    background: linear-gradient(90deg, transparent, var(--color-primary), var(--color-text), transparent);
+    background: linear-gradient(90deg, transparent, var(--color-primary-dark), var(--color-primary-light), transparent);
     border-radius: 4px;
 }
 
@@ -48,47 +48,6 @@
     justify-items: center;
     align-items: stretch;
     padding: 1rem 0;
-}
-
-/* Ajustes para que las cards se centren y mantengan su tamaño */
-.products-grid .card-cap {
-    width: 100%;
-    max-width: 220px;        /* Puedes ajustar según tu diseño */
-    height: auto;            /* Para que respete el aspect ratio */
-    aspect-ratio: 190 / 254; /* Mantiene la proporción original */
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-/* Efecto hover en la card (elevación) */
-.products-grid .card-cap:hover {
-    transform: translateY(-8px) scale(1.02);
-    filter: drop-shadow(0 20px 30px rgba(0, 0, 0, 0.5));
-}
-
-/* Si quieres que el contenido de la card (front/back) se adapte */
-.card-cap .card-cap-content {
-    width: 100%;
-    height: 100%;
-}
-
-/* Ajuste para las imágenes (si usas <img> dentro de .img) */
-.card-cap-front .img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-/* Badge: podemos darle un toque más elegante sin romper el existente */
-.card-cap-badge {
-    background: linear-gradient(135deg, #01066a, #2a1f8a) !important; /* Sobrescribe el fondo sólido */
-    padding: 4px 14px !important;
-    border-radius: 20px !important;
-    font-size: 0.7rem;
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-    box-shadow: 0 4px 12px rgba(1, 6, 106, 0.4);
-    border: 1px solid rgba(255, 255, 255, 0.15);
 }
 
 /* ============================================
