@@ -50,6 +50,15 @@
     padding: 1rem 0;
 }
 
+/* Ajustes para que las cards se centren y mantengan su tamaño */
+.products-grid .card-cap {
+    width: 100%;
+    max-width: 220px;
+    height: auto;
+    aspect-ratio: 190 / 254;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
 /* ============================================
    RESPONSIVE
    ============================================ */
