@@ -120,3 +120,18 @@
     object-fit: cover;
     object-position: center;
 }
+
+@media (max-width: 768px) {
+    .card-cap-badge {
+        font-size: 0.6rem;
+        padding: 4px 8px;
+        border-radius: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .card-cap-badge {
+        font-size: 0.5rem;
+        padding: 3px 6px;
+    }
+}
