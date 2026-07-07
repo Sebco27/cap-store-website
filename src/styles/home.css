@@ -3,3 +3,13 @@ body {
     background-color: var(--color-background);
     color: var(--color-text);
 }
+
+.url-text {
+    color: var(--color-text);
+    text-decoration: none;
+}
+
+.url-text:visited {
+    color: var(--color-text);
+    text-decoration: none;
+}

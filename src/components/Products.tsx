@@ -31,9 +31,7 @@ const productsData = [
 export default function Products() {
     return (
         <section className="products">
-
-            <h2>Productos</h2>
-
+            <h2>Productos Populares</h2>
             <div className="products-grid">
                 {productsData.map((cat) => (
                     <Card
@@ -44,6 +42,11 @@ export default function Products() {
                     />
                 ))}
             </div>
+            <button className="all-products-button">
+                <a href="https://www.instagram.com/luminous.cr/" className="url-text">
+                    Ver todos los productos
+                </a>
+            </button>
         </section>
     );
 }
