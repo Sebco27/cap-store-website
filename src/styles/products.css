@@ -124,7 +124,7 @@
     margin: 1.5rem auto;
     padding: 10px 20px;
     border-radius: 7px;
-    border: 1px solid rgb(61, 106, 255);
+    border: 1px solid var(--color-primary-light);
     font-size: 14px;
     text-transform: uppercase;
     font-weight: 600;
@@ -139,8 +139,8 @@
 }
 
 .all-products-button:hover {
-    background: rgb(61, 106, 255);
-    box-shadow: 0 0 30px 5px rgba(0, 142, 236, 0.815);
+    background: var(--color-primary-dark);
+    box-shadow: 0 0 30px 5px var(--color-primary-light);
     -webkit-transition: all 0.2s ease-out;
     -moz-transition: all 0.2s ease-out;
     transition: all 0.2s ease-out;
