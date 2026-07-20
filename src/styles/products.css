@@ -97,11 +97,23 @@
 
     .products-grid .card-cap {
         max-width: 100%;
-        aspect-ratio: 4 / 5; /* Ajuste para móviles */
+        aspect-ratio: 190 / 254; /* Ajuste para móviles */
     }
 
     .products h2 {
         font-size: 1.6rem;
+    }
+}
+
+@media (hover: none), (pointer: coarse) {
+    /* Siempre mostrar el frente */
+    .card-cap-content {
+        transform: rotateY(180deg);
+    }
+
+    /* Evitar que el hover cambie el estado */
+    .card-cap:hover .card-cap-content {
+        transform: rotateY(180deg);
     }
 }
 
